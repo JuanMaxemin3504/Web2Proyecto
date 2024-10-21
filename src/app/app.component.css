@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  justify-content:center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.listaNav {
+  display: flex;
+  margin: 0;
+  padding: 10px;
+  align-items: center;
+  list-style: none;
+}
+
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.opcion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 200px;
+  margin: 0 1px;
+}
+
+.opcion:hover {
+  color: brown;
+  border: 2px solid;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  padding: 10px;
+}
+
+.cuenta {
+  width: 50px;
+  height: auto;
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+}

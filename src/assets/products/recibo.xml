@@ -1,0 +1,12 @@
+<recibo>
+    <idCliente></id>
+    <nombreCliente></nombre>
+    <pedido>
+        <producto>
+            <idProducto><idProducto>
+            <nombreProducto></nombreProducto>
+            <precio></precio>
+        </producto>
+    </pedido>
+    <total></total>
+</recibo>

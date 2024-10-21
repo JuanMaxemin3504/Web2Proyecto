@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-right: 10%;
+}
+
+.vacio {
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 50%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.vacio img {
+  opacity: 40%;
+}
+
+.productContainer {
+  display: inline-block;
+  width: auto;
+}
+
+.productos {
+  margin-left: 5%;
+  margin-top: 5%;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 1%;
+}
+
+.productos img {
+  width: 20%;
+  border-radius: 10px;
+}
+
+.contenido {
+  text-align: center;
+  display: inline-block;
+  margin-left: 5%;
+  width: 100%;
+}
+
+.contenido h2 {
+  margin: 5px;
+}
+
+.contenido button {
+  background-color: hsl(356, 74%, 41%);
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contenido button:hover {
+  transition: 0.3s ease;
+  background-color: hsl(356, 74%, 31%);
+}
+
+.pago {
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  padding: 5%;
+  text-align: center;
+}
+
+.pago p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.pago button {
+  background-color: hsl(207, 76%, 64%);
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.pago button:hover {
+  transition: 0.3s ease;
+  background-color: hsl(207, 76%, 54%);
+  border: 1px solid black;
+}
+
+.pago a {
+  display: block;
+  color: hsl(207, 76%, 64%);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.pago a:hover {
+  transition: 0.3s ease;
+  color: hsl(207, 76%, 54%);
+}

@@ -1,0 +1,13 @@
+<div class="gridContainer">
+  <div *ngFor="let product of products" class="productContainer">
+    <img
+      src="{{ product.imagenURL }}"
+      alt="Imagen Producto"
+      class="imagenProducto"
+    />
+    <h2 class="nombreProducto">{{ product.nombre }}</h2>
+    <p class="descripcionProducto">{{ product.descripcion }}</p>
+    <p class="precioProducto">{{ product.precio }}</p>
+    <button (click)="addToCart(product)" class="button">Añadir</button>
+  </div>
+</div>

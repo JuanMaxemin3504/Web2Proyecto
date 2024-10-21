@@ -1,0 +1,54 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+  gap: 50px; /* Espacio entre columnas y filas */
+  max-width: 60%;
+  margin: 0 auto; /* Centrar horizontalmente el contenedor */
+  padding: 20px; /* Añade un poco de espacio interno */
+}
+
+.productContainer {
+  text-align: center;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.imagenProducto {
+  width: 200px;
+  border-radius: 10px;
+  aspect-ratio: 1/1;
+}
+
+.button {
+  background-color: hsl(207, 76%, 64%);
+  color: white;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  transition: 0.3s ease;
+  background-color: hsl(207, 76%, 54%);
+  border: 1px solid black;
+}
+
+/* Para pantallas medianas (tablets) */
+@media (max-width: 768px) {
+  .gridContainer {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* 2 columnas en pantallas medianas */
+  }
+}
+
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+  .gridContainer {
+    grid-template-columns: repeat(1, 1fr); /* 1 columna en pantallas pequeñas */
+  }
+}

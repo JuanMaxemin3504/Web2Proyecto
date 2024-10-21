@@ -1,0 +1,23 @@
+<catalog> 
+    <product>
+        <id>1</id>
+        <nombre>Producto 1</nombre>
+        <descripcion>Producto 1</descripcion>
+        <precio> 10.00</precio>
+        <imagenURL>https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.vexels.com%2Fpng-svg%2Fvista-previa%2F293613%2Ficono-de-comida-de-carne-de-pollo&psig=AOvVaw1v-STOe-bMx9P5D_D2TppN&ust=1726783379169000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNj8rv2-zYgDFQAAAAAdAAAAABAE</imagenURL>
+    </product>
+    <product>
+        <id>2</id>
+        <nombre>Producto 2</nombre>
+        <descripcion>Producto 2</descripcion>
+        <precio> 20.00</precio>
+        <imagenURL>https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.vexels.com%2Fpng-svg%2Fvista-previa%2F293613%2Ficono-de-comida-de-carne-de-pollo&psig=AOvVaw1v-STOe-bMx9P5D_D2TppN&ust=1726783379169000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNj8rv2-zYgDFQAAAAAdAAAAABAE</imagenURL>
+    </product>
+    <product>
+        <id>3</id>
+        <nombre>Producto 3</nombre>
+        <descripcion>Producto 3</descripcion>
+        <precio> 30.00</precio>
+        <imagenURL>https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.vexels.com%2Fpng-svg%2Fvista-previa%2F293613%2Ficono-de-comida-de-carne-de-pollo&psig=AOvVaw1v-STOe-bMx9P5D_D2TppN&ust=1726783379169000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNj8rv2-zYgDFQAAAAAdAAAAABAE</imagenURL>
+    </product>
+</catalog>
