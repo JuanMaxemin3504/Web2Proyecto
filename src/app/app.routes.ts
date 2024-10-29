@@ -17,6 +17,14 @@ export const routes: Routes = [
   },
 
   {
+    path: 'pago',
+    loadComponent: () =>
+      import('./components/payment/payment.component').then(
+        (m) => m.PaymentComponent
+      ),
+  },
+  
+  {
     path: '',
     redirectTo: 'catalogo',
     pathMatch: 'full',

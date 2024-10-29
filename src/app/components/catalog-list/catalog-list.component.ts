@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './catalog-list.component.html',
-  styleUrls: ['./catalog-list.component.css'], // Asegúrate que el nombre es 'styleUrls', no 'styleUrl'
+  styleUrls: ['./catalog-list.component.css'],
 })
 export class CatalogListComponent implements OnInit {
   products: Product[] = [];

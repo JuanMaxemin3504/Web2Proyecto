@@ -1,43 +1,49 @@
 {
-  "hash": "6c820f33",
-  "configHash": "fabb8ec3",
-  "lockfileHash": "75e485f2",
-  "browserHash": "98f38acf",
+  "hash": "778b982a",
+  "configHash": "bc957fb9",
+  "lockfileHash": "4cccc0d2",
+  "browserHash": "ab2967cb",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "ca21168a",
+      "fileHash": "6b1c63e1",
       "needsInterop": false
     },
     "@angular/common/http": {
       "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-      "fileHash": "5f51d86e",
+      "fileHash": "8f8c47ed",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "eee15f32",
+      "fileHash": "4e7591cb",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "3a865aae",
+      "fileHash": "dce8522c",
       "needsInterop": false
     },
     "@angular/platform-server": {
       "src": "../../../../../../node_modules/@angular/platform-server/fesm2022/platform-server.mjs",
       "file": "@angular_platform-server.js",
-      "fileHash": "e8928f61",
+      "fileHash": "9677935c",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "605e1d54",
+      "fileHash": "a58ffad4",
+      "needsInterop": false
+    },
+    "@stripe/stripe-js": {
+      "src": "../../../../../../../../../../../node_modules/@stripe/stripe-js/lib/index.mjs",
+      "file": "@stripe_stripe-js.js",
+      "fileHash": "f2848d68",
       "needsInterop": false
     }
   },

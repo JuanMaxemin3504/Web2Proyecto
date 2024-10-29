@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CartService } from '../../services/CartService/cart.service';
 import { Product } from '../../models/Product.model';
 import { ReceiptService } from '../../services/ReceiptService/receipt.service';
+import { Router } from '@angular/router'; // Importa Router
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,7 +10,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './shopping-cart.component.html',
-  styleUrl: './shopping-cart.component.css',
+  styleUrls: ['./shopping-cart.component.css'],
 })
 export class ShoppingCartComponent {
   products: Product[] = [];
@@ -17,7 +18,8 @@ export class ShoppingCartComponent {
 
   constructor(
     private cartService: CartService,
-    private receiptService: ReceiptService
+    private receiptService: ReceiptService,
+    private router: Router // Inyecta Router
   ) {
     this.products = cartService.getItems();
     this.total = cartService.getTotal();
@@ -30,7 +32,7 @@ export class ShoppingCartComponent {
   }
 
   checkout() {
-    this.receiptService.generateReceipt(this.products, this.total);
     this.cartService.clearCart();
+    this.router.navigate(['/pago']); // Redirige a la ruta de pago
   }
 }
