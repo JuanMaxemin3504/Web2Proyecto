@@ -1,5 +1,5 @@
 const express = require('express');
-const stripe = require('stripe')('sk_test_51QF6JIHFF8h6a0zJcq2PvtoaNKtQ9F5snsD4yM9lL5dqKT71LYk6LxtL3A6FLJbkyLo9uVVGTBsugFg20H0QBx1u00p8mlNiAO');
+const stripe = require('stripe')
 const mysql = require('mysql2');
 const cors = require('cors');
 
